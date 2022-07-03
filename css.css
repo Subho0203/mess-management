@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Nav Bar */
+
+.main{ 
+  background: linear-gradient(to top, rgba(0,0,0,0.6)50%,rgba(0,0,0,0.6)50%), url(mess.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.navbar{
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+
+.logo{
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.image{
+  width:100px;
+  height: 100px;
+  position: relative;
+  float: left;
+  margin-top: 5px
+}
+
+.menu{
+  float: left;
+  height: 70px;
+}
+
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li{
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+  color: #ff7200;
+}
+
+#heading{
+  font-size:62px;
+  color: #fff;
+  padding-top: 17rem;
+  padding-left: 28.25rem;
+
+  }
+
+/* Features */
+
+  .feature-box{
+    text-align: center;
+    padding: 5%;
+  }
+
+  .icon{
+    margin-bottom:1rem;
+  }
+
+   h3 {
+       font-family:"Montserrat Bold";
+   }
+
+   p{
+    color: #8f8f8f; 
+   }
+
+   /* Testimonials */
+
+   #testimonials {
+    padding: 7% 15%;
+    text-align:center;
+    background-color: #f5af45;
+  }
+
+  .testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  .testimonial-image {
+    width: 60%;
+    margin: 20px;
+  }
+  
+  #carouselExampleInterval{
+    background-color:#f5af45 ;
+    padding-left:30rem;
+  }
+
+  /* 1st Horizontal line */
+   
+  .dotted{
+    position:relative;
+    top: 27px;
+    left: 25%;
+    width: 50%;
+  }
+
+  /* Developers */
+  
+  .developers{
+    color: #f5af45;
+    position: absolute;
+    right:45%;
+    padding-top:2rem;
+  } 
+
+   #sr{
+   position:absolute;
+   padding-left:23rem;
+   padding-top:7rem;
+  }
+
+  #subhadip{
+    position:absolute;
+    right:7rem;
+    bottom:0rem;;
+  }
+  
+   #pk{
+    position:absolute;
+    right:38%;
+    bottom:-71.5rem;
+  }
+
+ #prabhat{
+    position:absolute;
+    right:7rem;
+    top:-2rem;
+  }
+  
+  #ak{
+    position:absolute;
+    left:84%;
+    top:110.9rem;
+  }
+   
+  #ankit{
+    position:absolute;
+    right: 110%;
+    bottom: 0rem;
+  }
+
+  /* 2nd Horizontal line */
+
+ .horizontal-line{
+    position:absolute;
+    top:120rem;
+    left: 25%;
+    width: 50%;
+  } 
+
+  /* Footer */
+
+   #contact{
+    color: #f5af45;
+    position:absolute;
+    left: 43%;
+    top:123rem;
+  }
+
+  #contact-icon a{
+    text-decoration:none;
+    color:black;
+   }
+
+  #contact-icon ion-icon{
+    font-size:60px;
+    padding-top:25rem;
+    transition: 0.3s ease;
+  }
+
+  #contact-icon ion-icon:hover{
+    color:#ff7200;
+  }
+  
+ .facebook{
+  padding-left:35rem;
+  padding-left:34rem;
+  padding-right:3rem;
+ }
+
+ .instagram{
+  padding-right:3rem;
+ }
+
+ .mail{
+  padding-left:3rem;
+ }
